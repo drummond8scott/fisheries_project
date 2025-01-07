@@ -1,0 +1,55 @@
+# Environment and IDE
+.env
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.class
+*.so
+.Python
+env/
+venv/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# Data files
+*.csv
+*.xlsx
+*.xls
+*.parquet
+*.feather
+/data/raw/*
+!/data/raw/.gitkeep
+/data/processed/*
+!/data/processed/.gitkeep
+
+# Database
+*.sqlite
+*.db
+
+# PostgreSQL
+*.dump
+*.sql
+*.bak
+postgres-data/
+pg_data/
+postgresql/
+*.psql
+pgdata/
+pg_stat_tmp/
+postmaster.*
+postgresql.conf.old
+recovery.conf
+standby.signal
+postgresql-*.auto.conf
+*.pid
+
+# Logs and temporary files
+*.log
+*.tmp
+.DS_Store
